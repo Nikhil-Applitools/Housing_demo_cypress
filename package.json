@@ -1,17 +1,19 @@
 {
-  "name": "tutorial-cypress",
+  "name": "Housing-cypress",
   "version": "1.0.0",
-  "description": "This contains Applitools Cypress tutorial",
+  "description": "Housing.com demo using cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
-    "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
+    "test": "cypress run --browser chrome --spec 'cypress/integration/examples/Housing_test_baseline.spec.js'",
+    "test:ci": "cypress run --browser chrome --headless --spec 'cypress/integration/examples/Housing_test_baseline.spec.js'",
     "cypress:open": "cypress open"
   },
   "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes-cypress": "^3.23.3",
-    "cypress": "^9.1.0"
+    "@applitools/eyes-cypress": "^3.29.1"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0"
   }
 }
